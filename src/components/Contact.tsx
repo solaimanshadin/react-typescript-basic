@@ -10,10 +10,10 @@ const Contact = ({name, email = "N/A", handleRemove}: IProps)  => {
     return (
         <div className="card">
             <p>
-                <strong>Name</strong> {name}
+                <strong>Name:</strong> {name}
             </p>
             <p>
-                <strong>Email</strong> {email}
+                <strong>Email:</strong> {email}
             </p>
             <button onClick={() => handleRemove(email)}>Remove</button>
         </div>
