@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 import Contact from './Contact';
 
 interface IContact{
-    name: string,
-    email: string,
+    name: string;
+    email: string;
 }
 const Contacts = () => {
     const [contact, setContact] = useState<IContact>({

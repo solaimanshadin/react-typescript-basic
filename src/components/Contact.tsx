@@ -1,8 +1,8 @@
 import React from 'react';
 
 interface IProps{
-    name: string,
-    email?: string,
+    name: string;
+    email?: string;
     handleRemove: (email: string) => void
 }
 
